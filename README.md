@@ -11,12 +11,11 @@ https://zhuanlan.zhihu.com/p/508842098
 ## 2.异常值检测--孤立森林 Isolation Forest  
 https://blog.csdn.net/u013250861/article/details/124329133  
 https://www.jianshu.com/p/dbb98e9d8aa4  
-outlier_IF.py
+[outlier_IF.py](https://github.com/charlieandthor/code-templates-for-contest-in-modeling/blob/main/outlier_IF.py)
 
 ## 3.异常值检测--3 sigma
-catering_sale.csv
-outlier_3sigma.py
+[catering_sale.csv](https://github.com/charlieandthor/code-templates-for-contest-in-modeling/blob/main/catering_sale.csv)  
+[outlier_3sigma.py](https://github.com/charlieandthor/code-templates-for-contest-in-modeling/blob/main/outlier_3sigma.py)
 
 ## 4.异常值检测
-
-outlier_simp.py
+[outlier_simp.py](https://github.com/charlieandthor/code-templates-for-contest-in-modeling/blob/main/outlier_simp.py)
