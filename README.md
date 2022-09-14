@@ -72,7 +72,8 @@ df = df.sample(n=5000)
 https://blog.csdn.net/qq_35098624/article/details/106456237  
 https://www.jianshu.com/p/2ca96fce7e81  
 
-## 8.Python绘图
+## 8.绘图
+### Python
 直方图  
 https://www.cnblogs.com/LiErRui/articles/11588399.html  
 柱状图+拟合线  
@@ -86,3 +87,6 @@ https://blog.csdn.net/weixin_33428129/article/details/114910341
 https://blog.csdn.net/qq_36523839/article/details/80654277  
 相关系数矩阵与热力图  
 https://blog.csdn.net/cymy001/article/details/79576019  
+### MATLAB
+拟合函数  
+https://blog.csdn.net/Bily_on/article/details/104309211
