@@ -42,10 +42,10 @@ https://blog.csdn.net/liguo_yao/article/details/80934420
 常用命令  
 https://blog.csdn.net/weixin_39670441/article/details/110925731  
 取dataframe特定行/列  
-```
+
 start = df.iloc[i,1]
 end = df.iloc[i,2]
-'''
+
 https://blog.csdn.net/dili8870/article/details/101506598  
 DataFrame随机抽样  
 https://blog.csdn.net/qq_38923076/article/details/82925238  
