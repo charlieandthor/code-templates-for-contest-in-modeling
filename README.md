@@ -22,7 +22,7 @@ https://www.jianshu.com/p/dbb98e9d8aa4
 [outlier_simp.py](https://github.com/charlieandthor/code-templates-for-contest-in-modeling/blob/main/outlier_simp.py)
 
 ## 5.批量读入文件  
-Python: 
+Python:  
 ```
 # 批量读入每一条线文件
 line = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19]\
@@ -42,6 +42,10 @@ https://blog.csdn.net/liguo_yao/article/details/80934420
 常用命令  
 https://blog.csdn.net/weixin_39670441/article/details/110925731  
 取dataframe特定行/列  
+```
+start = df.iloc[i,1]
+end = df.iloc[i,2]
+'''
 https://blog.csdn.net/dili8870/article/details/101506598  
 DataFrame随机抽样  
 https://blog.csdn.net/qq_38923076/article/details/82925238  
@@ -52,8 +56,33 @@ https://blog.csdn.net/joker_zsl/article/details/119874694
 选择满足特定条件的行  
 https://blog.csdn.net/Janine_1991/article/details/115508987  
 read_csv 和 to_csv  
-https://blog.csdn.net/qq_41895190/article/details/103332440  
+https://blog.csdn.net/qq_41895190/article/details/103332440    
+```
+pd.DataFrame(mp).to_csv('mp.csv', index=None, header=None)
+```
 数据排序  
 https://zhiqianghe.blog.csdn.net/article/details/108013889  
 数据合并与重塑 (pd.concat)  
 https://blog.csdn.net/Mr_HHH/article/details/79488445  
+随机抽样（不要随便抽样）
+```
+df = df.sample(n=5000)  
+```
+## 7.ROC曲线  
+https://blog.csdn.net/qq_35098624/article/details/106456237  
+https://www.jianshu.com/p/2ca96fce7e81  
+
+## 8.Python绘图
+直方图  
+https://www.cnblogs.com/LiErRui/articles/11588399.html  
+柱状图+拟合线  
+https://blog.csdn.net/chenran187906/article/details/102639618  
+完善及美化：标签，网格，颜色...  
+https://blog.csdn.net/weixin_41685388/article/details/109178092  
+matplotlib显示中文（包含字体选择）  
+https://blog.csdn.net/weixin_42870380/article/details/94883827  
+箱线图  
+https://blog.csdn.net/weixin_33428129/article/details/114910341  
+https://blog.csdn.net/qq_36523839/article/details/80654277  
+相关系数矩阵与热力图  
+https://blog.csdn.net/cymy001/article/details/79576019  
