@@ -24,13 +24,13 @@ https://www.jianshu.com/p/dbb98e9d8aa4
 ## 5.批量读入文件  
 Python:  
 '''批量读入每一条线文件'''  
-line = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19]
+line = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19]\
 for i in line:\
     station = pd.read_csv('att2_1_station.csv')\
-    if len(str(i)) == 1:
-        dis = pd.read_csv('dis00'+str(i)+'.csv')
-    else:
-        dis = pd.read_csv('dis0'+str(i)+'.csv')
+    if len(str(i)) == 1:\
+        dis = pd.read_csv('dis00'+str(i)+'.csv')\
+    else:\
+        dis = pd.read_csv('dis0'+str(i)+'.csv')\
 MATLAB:  
 https://lishizheng.blog.csdn.net/article/details/116760408  
 Python实现批量修改文件名、文件夹名:  
