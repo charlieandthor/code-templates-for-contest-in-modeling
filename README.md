@@ -37,3 +37,23 @@ MATLAB:
 https://lishizheng.blog.csdn.net/article/details/116760408  
 Python实现批量修改文件名、文件夹名:  
 https://blog.csdn.net/liguo_yao/article/details/80934420  
+
+## 6.pandas系列  
+常用命令  
+https://blog.csdn.net/weixin_39670441/article/details/110925731  
+取dataframe特定行/列  
+https://blog.csdn.net/dili8870/article/details/101506598  
+DataFrame随机抽样  
+https://blog.csdn.net/qq_38923076/article/details/82925238  
+DataFrame 数据替换  
+https://blog.csdn.net/weixin_44493841/article/details/122213842  
+数据筛选  
+https://blog.csdn.net/joker_zsl/article/details/119874694  
+选择满足特定条件的行  
+https://blog.csdn.net/Janine_1991/article/details/115508987  
+read_csv 和 to_csv  
+https://blog.csdn.net/qq_41895190/article/details/103332440  
+数据排序  
+https://zhiqianghe.blog.csdn.net/article/details/108013889  
+数据合并与重塑 (pd.concat)  
+https://blog.csdn.net/Mr_HHH/article/details/79488445  
