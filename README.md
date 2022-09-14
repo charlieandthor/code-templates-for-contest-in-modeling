@@ -75,7 +75,23 @@ https://www.jianshu.com/p/2ca96fce7e81
 ## 8.绘图
 ### Python
 直方图  
-https://www.cnblogs.com/LiErRui/articles/11588399.html  
+https://www.cnblogs.com/LiErRui/articles/11588399.html 
+```
+# 绘制直方图
+plt.hist(x = dis, # 指定绘图数据
+         bins = 20, # 指定直方图中条块的个数
+         color = colors[4], # 指定直方图的填充色
+         edgecolor = 'k' # 指定直方图的边框色
+         )
+# 添加x轴和y轴标签
+plt.xlabel(u'出行距离（米）')
+plt.ylabel(u'乘客数')
+# 添加标题
+plt.title(u'乘客出行距离分布')
+# 显示图形
+plt.grid(ls="--",lw=0.5,color=colors[8])
+plt.show()
+```
 柱状图+拟合线  
 https://blog.csdn.net/chenran187906/article/details/102639618  
 完善及美化：标签，网格，颜色...  
